@@ -1,0 +1,141 @@
+body {
+    background-color: black;
+}
+
+.header {
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header li {
+    list-style: none;
+    float: left;
+    padding: 10px;
+}
+
+.header a:link, a:hover, a:visited, a:active {
+    color: grey;
+    text-decoration: none;
+}
+
+.content {
+    font-family: 'Cairo', sans-serif;
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+
+.content h1 {
+    font-size: 50px;
+    background: -webkit-linear-gradient(#eee, rgb(206, 82, 231));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.content h2 {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    animation:
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+    padding: 10px;
+}
+
+@keyframes typing {
+    from { width: 0}
+    to { width: 100%}
+}
+
+.content a {
+    padding: 10px;
+    color: rgb(69, 119, 255);
+}
+
+.image {
+    text-align: center;
+}
+
+.aboutme {
+    background-color: white;
+    font-family: 'Cairo', sans-serif;
+    color: black;
+    text-align: center;
+    height: 650px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer {
+    color: white;
+    text-align: center;
+}
+
+.specification {
+    font-family: 'Cairo', sans-serif;
+    color: black;
+    background-color: white;
+    padding: 50px;
+}
+
+.releasedate {
+    color: white;
+    padding: 50px;
+    text-align: center;
+    height: 620px;
+}
+
+.title {
+    background-color: white;
+    text-align: center;
+    height: 10px;
+    padding: 30px;  
+}
+
+.product1 {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+#namahp {
+    font-size: 30px;
+}
+
+.xphone20, .xphone20pro, .xphone20proplus {
+    border-radius: 20px;
+    margin: 30px;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+/* .xphone20pro {
+    border-radius: 20px;
+    margin: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+.xphone20proplus {
+    border-radius: 20px;
+    margin: 30px;
+    padding: 10px;
+    text-align: center;
+} */
+
+.xphone20, .xphone20proplus, .xphone20pro h1,h3 {
+    text-align: center;
+}
+
+.content #buynow {
+    background-color: rgb(44, 107, 255);
+    border-radius: 10px;
+    padding: 5px 15px 5px 15px;
+    color: white;
+}
