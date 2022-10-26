@@ -1,0 +1,120 @@
+body{
+    background-color: #393E46;
+    color: EEEEEE;
+}
+
+/* index.php */
+.header{
+    height: 150px;
+    padding: 10px;
+}
+
+.pilihForm{
+    height: 135px;
+}
+
+.header, .pilihForm{
+    background-color: 222831;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.pilihForm li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.pilihForm a:link, a:hover, a:visited, a:active{
+    color: white;
+    text-decoration: none;
+    background-color: #0187d4;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* form1.php */
+.form1{
+    text-align: center;
+    background-color: 222831;
+    width: 350px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.table1{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#headerForm1{
+    margin-bottom: 20px;
+}
+
+#idForm1{
+    margin-top: 25px;
+}
+
+/* read.php */
+.readForm table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid white;
+}
+
+.readForm thead th:nth-child(1) {
+  width: 15%;
+}
+
+.readForm thead th:nth-child(2) {
+  width: 10%;
+}
+
+.readForm thead th:nth-child(3) {
+  width: 7.5%;
+}
+
+.readForm thead th:nth-child(4) {
+  width: 17.5%;
+}
+
+.readForm th, td {
+  padding: 10px;
+}
+
+.readForm tbody{
+    text-align: center;
+}
+
+.headerKecil{
+    background-color: 222831;
+    width: 150px;
+    height: 45px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.headerKecil2{
+    background-color: 222831;
+    width: 150px;
+    height: 45px;
+    margin-left: 75px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.readForm2 table {
+    table-layout: fixed;
+    width: 750px;
+    border-collapse: collapse;
+    border: 3px solid white;
+}
+
+.readForm2 th, td {
+    padding: 10px;
+  }
